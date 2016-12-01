@@ -1,0 +1,85 @@
+span {
+    line-height: 40px;
+}
+
+
+.header {
+    font-size: xx-large;
+    text-align: center;
+}
+
+#mainbody {
+    width: 70%;
+    margin: auto;
+}
+
+.changeless {
+    border: #ccc solid 1px;
+
+}
+
+.input {
+    border: #ccc solid 1px;
+    text-align: center;
+}
+
+.pack {
+    border: #ccc solid 1px;
+}
+
+.pack p {
+    margin: 0;
+    padding: 0;
+    background-color: #cccccc;
+    height: 40px;
+}
+
+.RadioSelection {
+    border: #ccc solid 1px;
+}
+
+#RadioSelectionTitle {
+    margin: 0;
+    padding: 0;
+    background-color: #cccccc;
+    height: 40px;
+}
+
+.CheckboxSelection {
+    border: #ccc solid 1px;
+}
+
+#CheckboxSelectionTitle {
+    margin: 0;
+    padding: 0;
+    background-color: #cccccc;
+    height: 40px;
+}
+
+.judge {
+    border: #ccc solid 1px;
+}
+
+#judgeTitle {
+    margin: 0;
+    padding: 0;
+    background-color: #cccccc;
+    height: 40px;
+}
+
+.ShortAnswer {
+    border: #ccc solid 1px;
+}
+
+#ShortAnswerTitle {
+    margin: 0;
+    padding: 0;
+    background-color: #cccccc;
+    height: 40px;
+}
+
+#textbox
+{
+    width: 90%;
+    height: 90px;
+}

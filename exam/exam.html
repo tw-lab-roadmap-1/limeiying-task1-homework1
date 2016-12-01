@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="examcss.css"/>
+    <title>exam</title>
+</head>
+<body>
+
+<div id="mainbody">
+    <div class="header">统一建模语言理论测试</div>
+    <pre>
+    <div class="changeless">    考试科目：统一建模语言         时间：100分钟           得分：
+    </div>
+</pre>
+    <div class="input">
+        <form method="post">
+            <p>
+                <label> 班级(必填): <input name="classes"/></label>
+                <label> 学号(必填): <input name="number"/></label>
+                <label> 姓名(必填): <input name="name"/></label>
+            </p>
+        </form>
+    </div>
+    <br>
+    <div class="pack">
+        <p><span>一 填空题（每空5分，共20分）</span></p>
+        <ol>
+            <li>
+                <form method="post">
+                    <label> UML的中文全称是:<br> <input name="answer"/></label>
+                </form>
+            </li>
+            <li>
+                <form method="post">
+                    <label>对象最突出的特征是：<br><input name="object"/>&nbsp;&nbsp;<input name="object"/>&nbsp;&nbsp;<input
+                            name="object"/></label>
+                </form>
+            </li>
+        </ol>
+    </div>
+    <br>
+    <div class="RadioSelection">
+        <p id="RadioSelectionTitle"><span>二 选择题（每题10分）</span></p>
+        <ol>
+            <li>
+                <p>UML与软件工程的关系是：()</p>
+                <form method="post">
+                    <input type="radio" value="A" name="SingleSelect" id="SingleSelect1"/>
+                    <label for="SingleSelect1">(A)UML 就是软件工程</label> <br>
+                    <input type="radio" value="B" name="SingleSelect" id="SingleSelect2"/>
+                    <label for="SingleSelect2">(B)UML 参与到软件工程中软件开发过程的几个阶段</label> <br>
+                    <input type="radio" value="C" name="SingleSelect" id="SingleSelect3"/>
+                    <label for="SingleSelect3">(C)UML 与软件工程无关</label> <br>
+                    <input type="radio" value="D" name="SingleSelect" id="SingleSelect4"/>
+                    <label for="SingleSelect4">(D)UML 是软件工程的一部分</label> <br>
+                </form>
+            </li>
+
+            <li>
+                <p>Java 语言支持:()</p>
+                <form method="post">
+                    <input type="radio" value="A" name="SingleSelect" id="SingleSelecta"/>
+                    <label for="SingleSelecta">(A)单继承</label> <br>
+                    <input type="radio" value="B" name="SingleSelect" id="SingleSelectb"/>
+                    <label for="SingleSelectb">(B)多继承</label> <br>
+                    <input type="radio" value="C" name="SingleSelect" id="SingleSelectc"/>
+                    <label for="SingleSelectc">(C)单继承和多继承都支持</label> <br>
+                    <input type="radio" value="D" name="SingleSelect" id="SingleSelectd"/>
+                    <label for="SingleSelectd">(D)单继承和多继承都不支持</label> <br>
+                </form>
+            </li>
+        </ol>
+    </div>
+    <br>
+    <div class="CheckboxSelection">
+
+        <p id="CheckboxSelectionTitle"><span>三 多项选择题（每题10分，共20分）</span></p>
+        <ol>
+            <li>
+                <p>用例的粒度分为以下哪三种()</p>
+                <form method="post">
+                    <input type="checkbox" value="A" name="CheckboxSelect1" id="f1"/>
+                    <label for="f1">(A)概述级</label><br>
+                    <input type="checkbox" value="B" name="CheckboxSelect1" id="f2"/>
+                    <label for="f2">(B)需求级</label><br>
+                    <input type="checkbox" value="C" name="CheckboxSelect1" id="f3"/>
+                    <label for="f3">(C)用户目标级</label><br>
+                    <input type="checkbox" value="D" name="CheckboxSelect1" id="f4"/>
+                    <label for="f4">(D)子功能级</label><br>
+                </form>
+            </li>
+            <li>
+                <p>类图由以下哪三部分组成()</p>
+                <form method="post">
+                    <input type="checkbox" value="A" name="CheckboxSelect2" id="fa"/>
+                    <label for="fa">(A)名称(Name)</label><br>
+                    <input type="checkbox" value="B" name="CheckboxSelect2" id="fb"/>
+                    <label for="fb">(B)属性(Attribute)</label><br>
+                    <input type="checkbox" value="C" name="CheckboxSelect2" id="fc"/>
+                    <label for="fc">(C)操作(Operation)</label><br>
+                    <input type="checkbox" value="D" name="CheckboxSelect2" id="fd"/>
+                    <label for="fd">(D)方法(Function)</label><br>
+                </form>
+            </li>
+        </ol>
+    </div>
+    <br>
+    <div class="judge">
+        <p id="judgeTitle"><span>四 判断题（每题10分，共20分）</span></p>
+        <ol>
+            <li>
+                <p>用例图只是用于和客户交流和沟通的,用于确定需求()</p>
+                <form method="post">
+                    <input type="radio" value="True" name="Judge1" id="true1"/>
+                    <label for="true1">True</label>
+                    <input type="radio" value="False" name="Judge1" id="false1"/>
+                    <label for="false1">False</label>
+                </form>
+            </li>
+            <li>
+                <p>在状态图中,终止状态在一个状态图中允许有任意多个()</p>
+                <form method="post">
+                    <input type="radio" value="True" name="Judge2" id="true2"/>
+                    <label for="true2">True</label>
+                    <input type="radio" value="False" name="Judge2" id="false2"/>
+                    <label for="false2">False</label>
+                </form>
+            </li>
+        </ol>
+    </div>
+    <br>
+    <div class="ShortAnswer">
+        <p id="ShortAnswerTitle"><span>五 简答题（每题20分，共20分）</span></p>
+        <p>1. 简述什么是模型以及模型的表现形式?</p>
+        <textarea id="textbox"></textarea>
+    </div>
+</div>
+</body>
+</html>
