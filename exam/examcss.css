@@ -2,7 +2,6 @@ span {
     line-height: 40px;
 }
 
-
 .header {
     font-size: xx-large;
     text-align: center;
@@ -78,8 +77,7 @@ span {
     height: 40px;
 }
 
-#textbox
-{
+#textbox {
     width: 90%;
     height: 90px;
 }
